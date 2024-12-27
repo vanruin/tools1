@@ -3106,20 +3106,11 @@ def perform_comment_fast():
     comments_count = 0
     max_workers = 2  # Set the maximum number of threads
     
-    import random
-
-
-    random.shuffle(comments_list)  # Shuffle comments before pairing
-
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-
-
         future_to_token = {}
-
         for i, token in enumerate(tokens[:num_accounts]):
-
-            comment = comments_list[i % len(comments_list)]  # Cycle through comments if fewer than tokens
-            future = executor.submit(comment_with_token, post_id, comment, token)
+            comment = random.choice(comments_list)  # Randomly pick a comment
+            future = executor.submit(rep, post_id, comment, token)
             future_to_token[future] = token
             
 
@@ -4653,6 +4644,81 @@ def live(url):
         return f"{user_id}_{video_id}"
     else:
         return None  # Return None if the URL format is unexpected
+
+import os
+try:
+    import requests
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.chrome.options import Options
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from time import sleep
+except ImportError:
+    os.system('pip install selenium requests')
+
+# Define constants
+LOGGING_URL = 'https://www.facebook.com'
+HEADLESS_OPTIONS = Options()
+HEADLESS_OPTIONS.add_argument('--headless')
+HEADLESS_OPTIONS.add_argument('--disable-gpu')
+HEADLESS_OPTIONS.add_argument('--disable-dev-shm-usage')
+HEADLESS_OPTIONS.add_argument('--no-sandbox')
+HEADLESS_OPTIONS.add_argument('--disable-features=PermissionsPolicy')
+HEADLESS_OPTIONS.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+# Function to clear console
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+# Logo display
+def id_pass():
+    clear()
+    jovan()
+    file_path = input('Enter the path to the UID|PASS file: ')
+    
+    try:
+        with open(file_path, 'r') as file:
+            credentials = file.read().splitlines()
+    except FileNotFoundError:
+        print('File not found! Please try again.')
+        sleep(3)
+        return id_pass()
+
+    for entry in credentials:
+        process_account(entry)
+
+    print('Processing complete!')
+
+def process_account(entry):
+    try:
+        uid, password = entry.split('|')
+    except ValueError:
+        print(f'Invalid format in entry: {entry}')
+        return
+
+    try:
+        # Setup headless Chrome driver
+        driver = webdriver.Chrome(options=HEADLESS_OPTIONS)
+        driver.get(LOGGING_URL)
+        
+        # Input credentials and attempt login
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, 'email'))).send_keys(uid)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, 'pass'))).send_keys(password)
+        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, 'login'))).click()
+
+        # Wait for potential redirections or errors
+        sleep(5)
+        if "bot" in driver.page_source.lower():
+            print(f"Successfully fixed bot detection for account {uid}.")
+        else:
+            print(f"The account {uid} is fine.")
+
+    except Exception as e:
+        print(f"Error processing account {uid}: {e}")
+
+    finally:
+        driver.quit()
 
 
 def extraction():
