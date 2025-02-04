@@ -1,4 +1,3 @@
-
 import os
 import random
 import string
@@ -140,20 +139,22 @@ def extract_ids(url):
     
 def jovan():
     adrkz = "\033[34m "
+    
+    
     print(f"""
-    {adrkz} 
+    {violet_chu} 
                 
-        
-               
-
-                           
-     ██╗  ██╗ █████╗ ████████╗ █████╗ ██████╗ ██╗███╗   ██╗ █████╗ 
-     ██║ ██╔╝██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗██║████╗  ██║██╔══██╗
-     █████╔╝ ███████║   ██║   ███████║██████╔╝██║██╔██╗ ██║███████║
-     ██╔═██╗ ██╔══██║   ██║   ██╔══██║██╔══██╗██║██║╚██╗██║██╔══██║
-     ██║  ██╗██║  ██║   ██║   ██║  ██║██║  ██║██║██║ ╚████║██║  ██║
-     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
-     {blue}───────────────────────────────────────────────────────────────\033[0m""")
+          ██████╗ ██████╗  █████╗ ███████╗██╗  ██╗██╗███████╗██╗  ██╗
+         ██╔════╝ ██╔══██╗██╔══██╗██╔════╝██║  ██║██║██╔════╝╚██╗██╔╝
+         ██║  ███╗██████╔╝███████║███████╗███████║██║█████╗   ╚███╔╝ 
+         ██║   ██║██╔══██╗██╔══██║╚════██║██╔══██║██║██╔══╝   ██╔██╗ 
+         ╚██████╔╝██║  ██║██║  ██║███████║██║  ██║██║███████╗██╔╝ ██╗
+          ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝ 
+                🎀 {white} https://grashiexboosting.com  🎀
+     {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m
+     {hotpink}OWNER     {white}: {lavender}ZEKE MALKOVA 💝 
+     {hotpink}FACEBOOK  {white}: {lavender}https://www.facebook.com/zkmlkv/
+     {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m""")
 
 def W_ueragnt():
     chrome_version = random.randint(80, 99)
@@ -5210,20 +5211,22 @@ yellow = "\033[1;33m"
 white = "\033[1;37m"
 def jovan():
     adrkz = "\033[34m "
+    
+    
     print(f"""
-    {adrkz} 
+    {violet_chu} 
                 
-        
-               
-
-                           
-     ██╗  ██╗ █████╗ ████████╗ █████╗ ██████╗ ██╗███╗   ██╗ █████╗ 
-     ██║ ██╔╝██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗██║████╗  ██║██╔══██╗
-     █████╔╝ ███████║   ██║   ███████║██████╔╝██║██╔██╗ ██║███████║
-     ██╔═██╗ ██╔══██║   ██║   ██╔══██║██╔══██╗██║██║╚██╗██║██╔══██║
-     ██║  ██╗██║  ██║   ██║   ██║  ██║██║  ██║██║██║ ╚████║██║  ██║
-     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
-     {blue}───────────────────────────────────────────────────────────────\033[0m""")
+          ██████╗ ██████╗  █████╗ ███████╗██╗  ██╗██╗███████╗██╗  ██╗
+         ██╔════╝ ██╔══██╗██╔══██╗██╔════╝██║  ██║██║██╔════╝╚██╗██╔╝
+         ██║  ███╗██████╔╝███████║███████╗███████║██║█████╗   ╚███╔╝ 
+         ██║   ██║██╔══██╗██╔══██║╚════██║██╔══██║██║██╔══╝   ██╔██╗ 
+         ╚██████╔╝██║  ██║██║  ██║███████║██║  ██║██║███████╗██╔╝ ██╗
+          ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝ 
+                🎀 {white} https://grashiexboosting.com  🎀
+     {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m
+     {hotpink}OWNER     {white}: {lavender}ZEKE MALKOVA 💝 
+     {hotpink}FACEBOOK  {white}: {lavender}https://www.facebook.com/zkmlkv/
+     {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m""")
 purple = "\033[1;35m"
 blue = "\033[34m"
 green = "\033[1;32m"
@@ -5809,45 +5812,43 @@ def main():
     jovan()
     print(f"""                 {lightblue}OVERVIEW OF STORED ACCOUNT & PAGES💫
           
-                            {blue}FRA ACCOUNT{yellow} : {green}{total_accounts}
-                            {blue}FRA PAGES  {yellow} : {green}{total_pages}
-                            {blue}RPW ACCOUNT{yellow} : {green}{ total_account_rpw}
-                            {blue}RPW PAGES  {yellow} : {green}{total_pages_rpw}
-      {blue}───────────────────────────────────────────────────────────────\033[0m""")
+                            {lavender}FRA ACCOUNT{yellow} : {green}{total_accounts}
+                            {lavender}FRA PAGES  {yellow} : {green}{total_pages}
+                            {lavender}RPW ACCOUNT{yellow} : {green}{ total_account_rpw}
+                            {lavender}RPW PAGES  {yellow} : {green}{total_pages_rpw}
+      {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m[0m""")
     print(f"                          {green} Services We Offer✨                               ")
-    print(f"      {red}[01]  {red}START")
-    print(f"      {green}[02]  {blue}REACT TO POST             {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[03]  {blue}REACT TO REELS            {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[04]  {blue}REACT TO GROUP POST       {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[05]  {blue}REACT TO POST[VID & PHOTO]{yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[06]  {blue}AUTO FOLLOW               {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[07]  {blue}AUTO REACT TO DP & POST   {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[08]  {blue}AUTO COMMENT              {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[09]  {blue}AUTO LIKE & FOLLOW PAGE   {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[10]  {blue}AUTO SHARE [VIA COOKIE]   {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[11]  {blue}AUTO REACT COMMENT        {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[12]  {blue}AUTO REPLY COMMENT        {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[13]  {blue}REACT TO POST (W CARE)    {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[14]  {blue}AUTO GROUP JOIN           {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[15]  {blue}AUTO REACT {red}LIVE          {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {green}[16]  {blue}AUTO COMMENT {red}LIVE          {yellow}- {green}[PAGE & ACCOUNT]")
-    print(f"      {red}[17]  {red}RESET")
-    print(f"    {blue}───────────────────────────────────────────────────────────────\033[0m")
-    print(f"                         {red}ADDITIONALS 🔥                                 ")
+    print(f"      {green}[01]  {red}START")
+    print(f"      {violet_chu}[02]  {purple}REACT TO POST             {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[03]  {purple}REACT TO REELS            {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[04]  {purple}REACT TO GROUP POST       {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[05]  {purple}REACT TO POST[VID & PHOTO]{white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[06]  {purple}AUTO FOLLOW               {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[07]  {purple}AUTO REACT TO DP & POST   {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[08]  {purple}AUTO COMMENT              {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[09]  {purple}AUTO LIKE & FOLLOW PAGE   {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[10]  {purple}AUTO SHARE [VIA COOKIE]   {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[11]  {purple}AUTO REACT COMMENT        {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[12]  {purple}AUTO REPLY COMMENT        {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[13]  {purple}REACT TO POST (W CARE)    {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {violet_chu}[14]  {purple}AUTO GROUP JOIN           {white}- {green}[PAGE & ACCOUNT]")
+    print(f"      {green}[15]  {red}RESET")
+    print(f"    {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m\033[0m")
+    print(f"                         {green}ADDITIONALS 👒                                 ")
     print()
-    print(f"      {green}[18] {blue}AUTO CREATE PAGE          {yellow}- {green}[PHB NAMES]")
-    print(f"      {green}[19] {blue}AUTO SET PFP              {yellow}- {green}[RANDOM]")
-    print(f"      {green}[20] {blue}CREATE FILE               {yellow}- {green}[RANDOM]")
-    print(f"      {red}[21] {red}REMOVE DUPLICATES         {yellow}- {green}[ACCURATE]")
-    print(f"    {blue}───────────────────────────────────────────────────────────────\033[0m")
+    print(f"      {violet_chu}[16] {purple}AUTO CREATE PAGE          {white}- {green}[PHB NAMES]")
+    print(f"      {violet_chu}[17] {purple}AUTO SET PFP              {white}- {green}[RANDOM]")
+    print(f"      {violet_chu}[18] {purple}CREATE FILE               {white}- {green}[RANDOM]")
+    print(f"      {green}[19] {red}REMOVE DUPLICATES         {white}- {green}[ACCURATE]")
+    print(f"    {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m\033[0m")
     print(f"                      {green}ACCOUNT CHECKER ✅                                 ")
     print()
-    print(f"      {green}[22] {blue}ACCOUNT CHECKER         {yellow}- {green}[ACCURATE]")
-    print(f"      {green}[23] {blue}VALIDATE TOKENS         {yellow}- {green}[ACCURATE]")
-    print(f"      {green}[24] {blue}REEDEM ACCOUNTS         {yellow}- {green}[ACCURATE]")
-    print(f"      {green}[25] {blue}AUTO SHARE              {yellow}- {green}[MAX SPEED/PRIVATE]")
-    print(f"      {green}[26] {blue}AUTO SHARE              {yellow}- {green}[MAX SPEED/PUBLIC]")
-    print(f"    {blue}───────────────────────────────────────────────────────────────\033[0m")
+    print(f"      {violet_chu}[20] {purple}ACCOUNT CHECKER         {white}- {red}[ACCURATE]")
+    print(f"      {violet_chu}[21] {purple}VALIDATE TOKENS         {white}- {red}[ACCURATE]")
+    print(f"      {violet_chu}[22] {purple}REEDEM ACCOUNTS         {white}- {red}[ACCURATE]")
+    print(f"      {violet_chu}[25] {purple}AUTO SHARE              {white}- {red}[maxspeed/PRIVATE]")
+    print(f"      {violet_chu}[25] {purple}AUTO SHARE              {white}- {red}[maxspeed/PUBLIC]")
+    print(f"    {hotpink}─────────────────────────────⋆⋅☆⋅⋆─────────────────────────────────────────\033[0m\033[0m")
     choice = input(f"     {green}CHOICE: ").strip()         
 #C:\Users\Dont touch my pc\Desktop\OPENSOURCE\zeke.py
     if choice == '1':
@@ -5899,6 +5900,8 @@ def main():
         check()
     if choice == '24': 
         githubtoks()
+    else:
+        print("Invalid choice, exiting.")
     if choice == '25':
         main2()
     if choice == '26':
